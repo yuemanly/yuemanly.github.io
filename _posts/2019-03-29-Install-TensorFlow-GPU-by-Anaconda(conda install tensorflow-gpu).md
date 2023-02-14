@@ -52,7 +52,7 @@ Run the command below:
 ```bash
 conda create -n tf
 ```
-![picture1](/img/20190328post.jpg)
+![picture1](/img/home-bg-art.jpg)
 
 'tf' is the name of your new conda environment, you can try other names as your own interest.
 
@@ -64,7 +64,7 @@ First, you need to change to the env you have just built by conda:
 ```bash
 source activete tf
 ```
-![picture2](/img/20190328post2.jpg)  
+![picture2](/img/home-bg-geek.jpg)  
 
 For Chinese users, before starting the installation, you may change the source of conda as the same reason before. For more details, read the webcite of [Tsinghua Mirror](https://mirror.tuna.tsinghua.edu.cn/help/anaconda/).
 Chinese users should type in this:
@@ -79,7 +79,7 @@ Afterwards, type in the command to install TensorFlow you need:
 ```bash
 conda install tensorflow-gpu
 ```
-![picture3](/img/20190328post3.jpg)  
+![picture3](/img/home-bg-o.jpg)  
 
 If you want to install a specific version of tensorflow-gpu or cpu veison, you can change the command like this:
 ```bash
