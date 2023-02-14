@@ -5,8 +5,8 @@
     <description>填上一句你想填的话，在index.html中更改</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 14 Feb 2023 16:23:43 +0800</pubDate>
-    <lastBuildDate>Tue, 14 Feb 2023 16:23:43 +0800</lastBuildDate>
+    <pubDate>Tue, 14 Feb 2023 16:58:31 +0800</pubDate>
+    <lastBuildDate>Tue, 14 Feb 2023 16:58:31 +0800</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -173,7 +173,7 @@ For example, if you use ubuntu, you can cd to the path of the sh file and run th
 &lt;p&gt;Run the command below:&lt;/p&gt;
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;conda create &lt;span class=&quot;nt&quot;&gt;-n&lt;/span&gt; tf
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;img src=&quot;/img/20190328post.jpg&quot; alt=&quot;picture1&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/home-bg-art.jpg&quot; alt=&quot;picture1&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;‘tf’ is the name of your new conda environment, you can try other names as your own interest.&lt;/p&gt;
 
@@ -184,7 +184,7 @@ For example, if you use ubuntu, you can cd to the path of the sh file and run th
 &lt;p&gt;First, you need to change to the env you have just built by conda:&lt;/p&gt;
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;source &lt;/span&gt;activete tf
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;img src=&quot;/img/20190328post2.jpg&quot; alt=&quot;picture2&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/home-bg-geek.jpg&quot; alt=&quot;picture2&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;For Chinese users, before starting the installation, you may change the source of conda as the same reason before. For more details, read the webcite of &lt;a href=&quot;https://mirror.tuna.tsinghua.edu.cn/help/anaconda/&quot;&gt;Tsinghua Mirror&lt;/a&gt;.
 Chinese users should type in this:&lt;/p&gt;
@@ -196,7 +196,7 @@ conda config &lt;span class=&quot;nt&quot;&gt;--set&lt;/span&gt; show_channel_ur
 &lt;p&gt;Afterwards, type in the command to install TensorFlow you need:&lt;/p&gt;
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;conda &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;tensorflow-gpu
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;img src=&quot;/img/20190328post3.jpg&quot; alt=&quot;picture3&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/home-bg-o.jpg&quot; alt=&quot;picture3&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;If you want to install a specific version of tensorflow-gpu or cpu veison, you can change the command like this:&lt;/p&gt;
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;conda &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;tensorflow-gpu&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;1.10.0  &lt;span class=&quot;c&quot;&gt;#if you want to install 1.10.0 version&lt;/span&gt;
