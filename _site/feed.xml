@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>端口5400</title>
+    <title>端口5000</title>
     <description>填上一句你想填的话，在index.html中更改</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 14 Feb 2023 16:58:31 +0800</pubDate>
-    <lastBuildDate>Tue, 14 Feb 2023 16:58:31 +0800</lastBuildDate>
+    <pubDate>Wed, 15 Feb 2023 15:10:24 +0800</pubDate>
+    <lastBuildDate>Wed, 15 Feb 2023 15:10:24 +0800</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -147,6 +147,7 @@
 &lt;hr /&gt;
 
 &lt;h2 id=&quot;install-anaconda&quot;&gt;Install Anaconda&lt;/h2&gt;
+
 &lt;blockquote&gt;
   &lt;p&gt;&lt;a href=&quot;https://www.anaconda.com/&quot;&gt;Anaconda&lt;/a&gt; is a free and open-source distribution of the Python and R programming languages for scientific computing, that aims to simplify package management and deployment.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -162,6 +163,7 @@ For example, if you use ubuntu, you can cd to the path of the sh file and run th
 
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;./Anaconda3-5.3.1-Linux-x86_64.sh
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;Attention that you should change the command above to your own installation file name.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Then you will successfully install Anaconda!&lt;/p&gt;
@@ -171,9 +173,9 @@ For example, if you use ubuntu, you can cd to the path of the sh file and run th
 &lt;p&gt;If you are unwilling to create conda environment (maybe because of lazy), you can skip this section. However, I strongly reconmend you to create this &lt;strong&gt;for the convience in the future&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;Run the command below:&lt;/p&gt;
+
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;conda create &lt;span class=&quot;nt&quot;&gt;-n&lt;/span&gt; tf
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;img src=&quot;/img/home-bg-art.jpg&quot; alt=&quot;picture1&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;‘tf’ is the name of your new conda environment, you can try other names as your own interest.&lt;/p&gt;
 
@@ -182,34 +184,39 @@ For example, if you use ubuntu, you can cd to the path of the sh file and run th
 &lt;h2 id=&quot;install-tensorflow&quot;&gt;Install Tensorflow&lt;/h2&gt;
 
 &lt;p&gt;First, you need to change to the env you have just built by conda:&lt;/p&gt;
+
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;source &lt;/span&gt;activete tf
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;img src=&quot;/img/home-bg-geek.jpg&quot; alt=&quot;picture2&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;For Chinese users, before starting the installation, you may change the source of conda as the same reason before. For more details, read the webcite of &lt;a href=&quot;https://mirror.tuna.tsinghua.edu.cn/help/anaconda/&quot;&gt;Tsinghua Mirror&lt;/a&gt;.
 Chinese users should type in this:&lt;/p&gt;
+
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;conda config &lt;span class=&quot;nt&quot;&gt;--add&lt;/span&gt; channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
 conda config &lt;span class=&quot;nt&quot;&gt;--add&lt;/span&gt; channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
 conda config &lt;span class=&quot;nt&quot;&gt;--set&lt;/span&gt; show_channel_urls &lt;span class=&quot;nb&quot;&gt;yes&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Afterwards, type in the command to install TensorFlow you need:&lt;/p&gt;
+
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;conda &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;tensorflow-gpu
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;img src=&quot;/img/home-bg-o.jpg&quot; alt=&quot;picture3&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;If you want to install a specific version of tensorflow-gpu or cpu veison, you can change the command like this:&lt;/p&gt;
+
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;conda &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;tensorflow-gpu&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;1.10.0  &lt;span class=&quot;c&quot;&gt;#if you want to install 1.10.0 version&lt;/span&gt;
 conda &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;tensorflow  &lt;span class=&quot;c&quot;&gt;#if you want to install cpu version&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 &lt;p&gt;After anaconda solve the environment, you just need to type in ‘y’ to confirm the installation.&lt;/p&gt;
 
 &lt;h2 id=&quot;anaconda-will-automatically-install-other-libs-and-toolkits-needed-by-tensorfloweg-cuda-and-cudnn-so-you-have-no-need-to-worry-about-this&quot;&gt;Anaconda will &lt;strong&gt;automatically&lt;/strong&gt; install other libs and toolkits needed by tensorflow(e.g. CUDA, and cuDNN), so you have no need to worry about this.&lt;/h2&gt;
 
 &lt;p&gt;Type in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;python&lt;/code&gt; to enter the python environment.&lt;/p&gt;
+
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;tensorflow&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tf&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;tf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__version__&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 &lt;p&gt;When you see the version of tensorflow, such as 1.10.0, you have successfully install it.&lt;/p&gt;
 
 &lt;p&gt;That’s all, Thank you.&lt;/p&gt;
