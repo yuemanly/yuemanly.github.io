@@ -1,1 +1,87 @@
-test
+# 电脑端
+
+# Clash Verge **Rev**教程
+
+## **下载和安装**
+
+ [下载](https://github.com/clash-verge-rev/clash-verge-rev/releases)Clash Verge Rev（[官网](https://clashverge.net/clash-verge-rev/)）。Windows 用户可选择下载 `.msi` 或 `.exe` 安装文件，Mac 用户根据自己的芯片型号（Intel 或 M1/M2）下载相应的 `.dmg` 文件根据操作系统从下载对应平台的安装包进行安装。
+
+按照提示完成安装。安装完成后，可在设置中将界面语言切换为中文。
+
+## **代理导入**
+
+在 Clash Verge 中配置代理，有两种导入方式。第一种。首先在应用界面的 “配置” 部分填入代理配置信息的 URL（通常由代理服务商提供）。然后点击 “导入” 导入代理配置文件。
+
+![https://clashverge.net/wp-content/uploads/2023/11/tutorial1-1.png](https://clashverge.net/wp-content/uploads/2023/11/tutorial1-1.png)
+
+第二种配置文件导入
+
+![Untitled](%E7%94%B5%E8%84%91%E7%AB%AF%205c168e06400c4c3291b64611208ed13a/Untitled.png)
+
+**选择代理节点**
+
+选择一个代理节点。这取决于代理服务商提供的配置。代理节点通常在 Clash Verge 的 “代理” 页面中列出。
+
+![https://clashverge.net/wp-content/uploads/2023/11/tutorial2-1.png](https://clashverge.net/wp-content/uploads/2023/11/tutorial2-1.png)
+
+## **设置系统代理模式**
+
+在 Clash Verge 的设置界面中启动系统代理。您可以选择以下模式：
+
+- **全局模式**（Global）：所有请求直接通过代理服务器。
+- **规则模式**（Rule）：根据配置文件的规则进行分流。
+- **直连模式**（Direct）：所有请求直接发送到目的地
+
+![https://clashverge.net/wp-content/uploads/2023/11/tutorial3-1.png](https://clashverge.net/wp-content/uploads/2023/11/tutorial3-1.png)
+
+## **开始使用**
+
+启动系统代理后，您就可以开始浏览或使用被墙的网站和服务了。首次使用时建议在隐私模式下测试，以避免浏览器插件影响代理的正常使用。
+
+## 常见问题
+
+### 显示文件已损坏
+
+原因是开发者没有Apple Developer Program会员资格，请到终端执行命令授权：
+
+```bash
+sudo xattr -r -d com.apple.quarantine /Applications/Clash\ Verge.app
+```
+
+![Untitled](%E7%94%B5%E8%84%91%E7%AB%AF%205c168e06400c4c3291b64611208ed13a/Untitled%201.png)
+
+# trojan-qt5教程
+
+## 下载
+
+从这里[下载](https://github.com/blue-githubz6kh/Trojan-Qt5/releases/tag/1.4.0)，文件根据操作系统从下载对应平台的安装包进行安装。
+
+## 使用方式
+
+**Trojan-Qt5 的使用**
+
+Trojan-Qt5 工具有很多发行格式，其中压缩格式的绿色版软件最为好用，直接运行不需要安装。将压缩文件解压，然后进入解压生成的文件夹，双击”trojan-qt5.exe”运行程序，就会见到如下界面：
+
+![https://www.rultr.com/wp-content/uploads/2020/06/xTrojan-Qt5-main-page.jpg.pagespeed.ic.BUPHEHykd6.webp](https://www.rultr.com/wp-content/uploads/2020/06/xTrojan-Qt5-main-page.jpg.pagespeed.ic.BUPHEHykd6.webp)
+
+然后选择”连接”菜单，依次选择”添加→URI→把链接复制进去：
+
+填入 Trojan 服务器的基本信息后，点击”OK”保存配置，注意服务器地址、端口以及密钥信息根据实际情况填写。此时，添加到的 Trojan 服务器就会显示在 Trojan-Qt5 的主界面：
+
+![https://www.rultr.com/wp-content/uploads/2020/06/Trojan-Qt5-main-connect-trojan-server.jpg](https://www.rultr.com/wp-content/uploads/2020/06/Trojan-Qt5-main-connect-trojan-server.jpg)
+
+配置无误后，点击”连接”按钮启动 Trojan 客户端连接，然后将浏览器代理服务器设置为”使用系统代理”即可自由上网了。
+
+当然，Trojan-Qt5 还支持一些其它代理设置的，包括服务器选择呀、代理方式等，直接点击任务栏图标，按右键就会显示相关内容，具体信息如下：
+
+![https://www.rultr.com/wp-content/uploads/2020/06/Trojan-Qt5-menu-page.jpg](https://www.rultr.com/wp-content/uploads/2020/06/Trojan-Qt5-menu-page.jpg)
+
+总体来说，Trojan-Qt5 使用简单，功能完备，是一款非常出色的 Trojan 图形化工具，不喜欢命令行的朋友可以尝试下。
+
+## **你的配置已由旧版trojan-qt5升级。一个纯净版安装时必须的**
+
+删除trojan-qt5的配置文件即可
+
+```bash
+$ rm -rf ~/.config/trojan-qt5/
+```
